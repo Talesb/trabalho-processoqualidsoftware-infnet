@@ -18,6 +18,7 @@ public class TicketService {
 
 		System.out.println("Ticket Owner: " + ticket.getPerson().getName().getFirstName());
 		System.out.println("Ticket Agent: " + ticket.getAssignedAgent().getName().getFirstName());
+		System.out.println("Commit example");
 
 		ticket.getProduct().forEach(product -> {
 			System.out.println("Ticket Product: "+product.getName());
